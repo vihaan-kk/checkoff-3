@@ -115,3 +115,8 @@ Same processes, same total work (12 seconds), but CFS cuts the average wait by a
 ## Takeaway
 
 From your laptop to a huge data center, something always has to pick who goes next, and every choice has tradeoffs.
+
+## Additional Resources
+ 
+- [OSTEP Chapter 9: Scheduling: Proportional Share](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-sched-lottery.pdf): a free, beginner-friendly textbook chapter on fair-share scheduling, including how Linux CFS, vruntime, and nice values work.
+- [Linux Kernel Documentation: CFS Scheduler](https://docs.kernel.org/scheduler/sched-design-CFS.html): the official design doc for CFS, with links to the EEVDF scheduler that replaced it.

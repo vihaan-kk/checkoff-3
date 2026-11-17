@@ -2,6 +2,10 @@
 
 ### Vihaan Kerekatte | COMP 211 Checkoff 3
 
+**Presentation Slides:** 
+
+**https://docs.google.com/presentation/d/e/2PACX-1vSdi9w_AM43qYjjLOG0oF4RUi4mPo5DgTrJ7nbPtmpTh3gACOov8QtemK9xwi3aZvWirwdXpTB0Fa5L/pub?start=false&loop=false&delayms=3000**
+
 ## Topic
 
 A typical laptop CPU has a fixed amount of cores which each have thread that can run individual processes. Each process is a program that a computer needs to run (Chrome, VSCode, Safari, Terminal, etc.). The problem is with many different processes, how can the OS choose which process should be run and when. Think about sharing a pizza between friends, how do you determine splitting it up. Just as there are many methods to split the pizza up, there are many algorithms the OS could use to schedule processes. A good scheduler has to balance three goals that often pull against each other:

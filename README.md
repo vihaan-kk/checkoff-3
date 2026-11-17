@@ -41,6 +41,7 @@ All three are ready at time 0, and A is first in line.
 **Compile and run** (in the course's Linux environment):
  
 ```bash
+cd code
 gcc -o fcfs fcfs.c
 gcc -o cfs cfs.c
 ./fcfs
